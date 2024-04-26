@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .input-container {
+            display: -ms-flexbox; /* IE10 */
+            display: flex;
+            width: 100%;
+            margin-bottom: 15px;
+          }
+
+        .icon {
+            padding: 10px;
+            color: black;
+            min-width: 50px;
+            text-align: center;
+          }
+
+        .input-field {
+            width: 100%;
+            padding: 10px;
+            outline: none;
+          }
+
+        .first-div{
+           width: 40%;
+           
+          }
+    </style>
+</head>
+<body>
+
+    <form action="">
+        <div class="first-div" >
+            <h2>Responsive Registration Form</h2>
+    
+            <div class="input-container">
+                <i class="fa fa-envelope icon"></i>
+                <input class="input-field" type="text" placeholder="Email" name="" id="">
+            </div>
+
+            <div class="input-container">
+                <i class="fa fa-lock icon" aria-hidden="true"></i>
+                <input class="input-field" type="password" placeholder="Password" name="" id="">
+            </div>
+
+            <div class="input-container">
+                <i class="fa fa-lock icon" aria-hidden="true"></i>
+                <input class="input-field" type="password" placeholder="Re-type Password" name="" id="">
+            </div>
+
+            <div>
+                <table>
+                    <tr>
+                        <td>
+                            <div class="input-container">
+                                <i class="fa fa-user icon"></i>
+                                <input class="input-field" type="text" placeholder="First Name" name="" id="">
+                            </div>
+                        </td>
+
+                        <td>
+                            <div class="input-container">
+                                <i class="fa fa-user icon"></i>
+                                <input class="input-field" type="text" placeholder="Last Name" name="" id="">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <input type="radio" name="" id="">
+            <label for="" name="Gen">Male</label> 
+
+            <input type="radio" name="" id="">
+            <label for="" name="Gen">Female</label> 
+            <br> <br>
+            <select class="input-field" name="" id="">
+                <option  value="">Select a country</option>
+            </select>
+
+            <br> <br>
+            <input type="checkbox" name="" id="">
+            <label for=""> I agree with terms and conditions</label>
+            <br>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for=""> I want recieve the newsletter</label>
+        </div>
+        <div>
+            <button>Register</button>
+        </div>
+    </form>
+    
+</body>
+</html>
